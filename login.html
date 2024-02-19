@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroLogInPage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "sports-primary": "#FF4240",
+              "sports-primary-bg": "#FF4240",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Styles Here -->
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+      
+    </style>
+    <script src="https://kit.fontawesome.com/2efcc1d1db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body class=".font-manrope">
+    <header class="md:container md:mx-auto lg:pr-32 lg:pl-32">
+        <nav class="lg:py-12">
+          <div class="navbar bg-base-100">
+            <div class="navbar-start flex-1">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content mt-3 z-[1] p-2 text-base shadow bg-base-100 rounded-box w-52"
+                >
+                <li><a href="index.html">Home</a></li>
+                <li><a>All Catagories</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Help Center</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl font-bold lg:text-4xl">AgriConnect <span class="text-green-600">BD</span></a>
+            </div>
+            <div class="navbar-center hidden lg:flex justify-center">
+              <ul class="menu menu-horizontal px-1 text-base">
+                <li><a href="index.html">Home</a></li>
+                <li><a>All Catagories</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Help Center</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </nav>
+    </header>    
+    <section class="login-body pt-20">
+        <div class="loginfrom">
+            <div class="leftfrom">
+                <h1>Sign In</h1>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+               <p>or use your email password</p>
+               <div class="inputs"> 
+               <input type="text" placeholder="Email"><br>
+               <input type="password" placeholder="Password">
+               </div>
+               <p><a href="#">Forget Your Password?</a></p>
+               <a href=""><button>SIGN IN</button></a>
+            </div>
+            <div class="rightfrom">
+                <h1>Hello, Friend!</h1>
+                <p>Register with your personal details to use all of site features</p>
+                <a href=""><button>SIGN UP</button></a>
+                
+            </div>
+        </div>
+    </section>
+    <footer class="footer footer-center p-4 bg-base-300 text-base-content">
+        <aside>
+          <p>Copyright © 2024 - All right reserved by AgriConnect BD Ltd</p>
+        </aside>
+      </footer>
+</body>
+</html>
