@@ -1,0 +1,109 @@
+footer{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sec-container{
+    display: flex;
+    background-color: #F7F5EB;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 0;
+
+}
+.argo-info{
+display: grid;
+max-width: 25%;
+margin-right: 50px;
+align-items: center;
+padding-bottom: 20px;
+padding-left: 40px;
+}
+address i{
+    margin: 5px;
+}
+address .element-box p{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.company h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.Services h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.Customer-Care h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.Newsletter h4{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.company ul{
+    list-style: none;
+    padding-left: 0;
+}
+.Services ul{
+    list-style: none;
+    padding-left: 0;
+}
+.Customer-Care ul{
+    list-style: none;
+    padding-left: 0;
+}
+.Newsletter ul{
+    list-style: none;
+    padding-left: 0;
+}
+.sec-con2{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    box-sizing: border-box;
+    
+}
+
+.company li{
+    padding-bottom: 20px;
+}
+.Services li{
+    padding-bottom: 20px;
+}
+.Customer-Care li{
+    padding-bottom: 20px;
+}
+
+.Newsletter button{
+    background-color: #80b500;
+    border: none;
+    padding: 17px 25px 17px 25px;
+    color: white;
+}
+.Newsletter input{
+    border: none;
+    padding: 18px 128px 18px 13px
+}
+
+.Newsletter h5{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.Newsletter{
+    margin: 0px 56px;
+}
+.icons2{
+    padding-top: 20px;
+}
+address{
+    display: block;
+}
+
+.p1{
+    font-weight:lighter;
+    
+}
