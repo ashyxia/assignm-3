@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe096538ac.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <script src="additem.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "sports-primary": "#FF4240",
+              "sports-primary-bg": "#FF4240",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Styles Here -->
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+      .hidden {
+  display: none;
+}
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+    <!-- New Product Section  -->
+    <section class="m-24">
+      <h3 class="text-xl lg:text-3xl font-bold text-center">All Items</h3>
+      <p class="text-base text-center pt-6">
+        The Place Where You Can Find Authentic Products
+      </p>
+      <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="border-2 lg:flex px-5 py-5">
+          <div>
+            <figure><img src="./Images/5.png" alt="" /></figure>
+          </div>
+          <div class="pl-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <p class="px-2">5.0</p>
+              <img src="./icons/Eye-Frame.png" alt="" />
+              <p class="px-2">20</p>
+              <img src="./icons/Love-Frame.png" alt="" />
+              <p class="px-2">200</p>
+            </div>
+            <div>
+              <h3 class="text-xl lg:text-lg font-bold pt-4">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base text-left pt-4">
+                Flags flutter, nations unite in thrilling World Cup football
+                spectacle.
+              </p>
+            </div>
+            <div class="lg:flex pt-4">
+              <div>
+                <h3 class="text-sports-primary-bg text-base font-bold">
+                  Price - $22.00
+                </h3>
+              </div>
+              <div class="flex lg:px-2">
+                <div>
+                  <img src="./icons/Delivery-Frame.png" alt="" />
+                </div>
+                <div><p>Delivery Fee : Free</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-2 lg:flex px-5 py-5">
+          <div>
+            <figure><img src="./Images/6.png" alt="" /></figure>
+          </div>
+          <div class="pl-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <p class="px-2">5.0</p>
+              <img src="./icons/Eye-Frame.png" alt="" />
+              <p class="px-2">20</p>
+              <img src="./icons/Love-Frame.png" alt="" />
+              <p class="px-2">200</p>
+            </div>
+            <div>
+              <h3 class="text-xl lg:text-lg font-bold pt-4">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base text-left pt-4">
+                Flags flutter, nations unite in thrilling World Cup football
+                spectacle.
+              </p>
+            </div>
+            <div class="lg:flex pt-4">
+              <div>
+                <h3 class="text-sports-primary-bg text-base font-bold">
+                  Price - $22.00
+                </h3>
+              </div>
+              <div class="flex lg:px-2">
+                <div>
+                  <img src="./icons/Delivery-Frame.png" alt="" />
+                </div>
+                <div><p>Delivery Fee : Free</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-2 lg:flex px-5 py-5">
+          <div>
+            <figure><img src="./Images/7.png" alt="" /></figure>
+          </div>
+          <div class="pl-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <p class="px-2">5.0</p>
+              <img src="./icons/Eye-Frame.png" alt="" />
+              <p class="px-2">20</p>
+              <img src="./icons/Love-Frame.png" alt="" />
+              <p class="px-2">200</p>
+            </div>
+            <div>
+              <h3 class="text-xl lg:text-lg font-bold pt-4">Cap For Hockeys</h3>
+              <p class="text-base text-left pt-4">
+                Flags flutter, nations unite in thrilling World Cup football
+                spectacle.
+              </p>
+            </div>
+            <div class="lg:flex pt-4">
+              <div>
+                <h3 class="text-sports-primary-bg text-base font-bold">
+                  Price - $22.00
+                </h3>
+              </div>
+              <div class="flex lg:px-2">
+                <div>
+                  <img src="./icons/Delivery-Frame.png" alt="" />
+                </div>
+                <div><p>Delivery Fee : Free</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-2 lg:flex px-5 py-5">
+          <div>
+            <figure><img src="./Images/8.png" alt="" /></figure>
+          </div>
+          <div class="pl-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <p class="px-2">5.0</p>
+              <img src="./icons/Eye-Frame.png" alt="" />
+              <p class="px-2">20</p>
+              <img src="./icons/Love-Frame.png" alt="" />
+              <p class="px-2">200</p>
+            </div>
+            <div>
+              <h3 class="text-xl lg:text-lg font-bold pt-4">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base text-left pt-4">
+                Flags flutter, nations unite in thrilling World Cup football
+                spectacle.
+              </p>
+            </div>
+            <div class="lg:flex pt-4">
+              <div>
+                <h3 class="text-sports-primary-bg text-base font-bold">
+                  Price - $22.00
+                </h3>
+              </div>
+              <div class="flex lg:px-2">
+                <div>
+                  <img src="./icons/Delivery-Frame.png" alt="" />
+                </div>
+                <div><p>Delivery Fee : Free</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-2 lg:flex px-5 py-5">
+          <div>
+            <figure><img src="./Images/9.png" alt="" /></figure>
+          </div>
+          <div class="pl-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <p class="px-2">5.0</p>
+              <img src="./icons/Eye-Frame.png" alt="" />
+              <p class="px-2">20</p>
+              <img src="./icons/Love-Frame.png" alt="" />
+              <p class="px-2">200</p>
+            </div>
+            <div>
+              <h3 class="text-xl lg:text-lg font-bold pt-4">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base text-left pt-4">
+                Flags flutter, nations unite in thrilling World Cup football
+                spectacle.
+              </p>
+            </div>
+            <div class="lg:flex pt-4">
+              <div>
+                <h3 class="text-sports-primary-bg text-base font-bold">
+                  Price - $22.00
+                </h3>
+              </div>
+              <div class="flex lg:px-2">
+                <div>
+                  <img src="./icons/Delivery-Frame.png" alt="" />
+                </div>
+                <div><p>Delivery Fee : Free</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-2 lg:flex px-5 py-5">
+          <div>
+            <figure><img src="./Images/10.png" alt="" /></figure>
+          </div>
+          <div class="pl-4">
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <p class="px-2">5.0</p>
+              <img src="./icons/Eye-Frame.png" alt="" />
+              <p class="px-2">20</p>
+              <img src="./icons/Love-Frame.png" alt="" />
+              <p class="px-2">200</p>
+            </div>
+            <div>
+              <h3 class="text-xl lg:text-lg font-bold pt-4">
+                World Cup Flags Football
+              </h3>
+              <p class="text-base text-left pt-4">
+                Flags flutter, nations unite in thrilling World Cup football
+                spectacle.
+              </p>
+            </div>
+            <div class="lg:flex pt-4">
+              <div>
+                <h3 class="text-sports-primary-bg text-base font-bold">
+                  Price - $22.00
+                </h3>
+              </div>
+              <div class="flex lg:px-2">
+                <div>
+                  <img src="./icons/Delivery-Frame.png" alt="" />
+                </div>
+                <div><p>Delivery Fee : Free</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <div>
+      <button id="add-item-btn" class="fixed bottom-4 right-4 bg-sports-primary-bg text-white font-bold py-2 px-4 rounded-md shadow-md hover:bg-sports-primary-bg hover:shadow-lg transition-all duration-300">Add New Item</button>
+     </div>
+     <!-- pannel for item add -->
+     <div>
+      <div id="add-item-panel" class="hidden">
+        <div class="p-6">
+          <h3 class="text-lg font-bold mb-4">Add New Item</h3>
+          <form id="add-item-form">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 font-bold mb-2">Name:</label>
+              <input type="text" id="name" name="name" required class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+              <label for="price" class="block text-gray-700 font-bold mb-2">Price:</label>
+              <input type="number" id="price" name="price" required class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+            <div class="mb-4">
+              <label for="image" class="block text-gray-700 font-bold mb-2">Image:</label>
+              <input type="file" id="image" name="image" accept="image/*" required class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+              <div class="mt-2">
+                <img id="preview-image" src="" alt="Preview" class="w-48 h-48 object-cover">
+              </div>
+            </div>
+            <button type="submit" class="bg-sports-primary-bg hover:bg-sports-primary-bg-dark text-white font-bold py-2 px-4 rounded-md shadow-md focus:outline-none focus:shadow-outline">Add Item</button>
+          </form>
+          <template id="item-template">
+            <div class="border-2 lg:flex px-5 py-5">
+              <div>
+                <figure><img src="" alt="" /></figure>
+              </div>
+              <div class="pl-4">
+                <div class="rating">
+                  <!-- Add rating functionality here -->
+                </div>
+                <div>
+                  <h3 class="text-xl lg:text-lg font-bold pt-4"></h3>
+                  <p class="text-base text-left pt-4"></p>
+                </div>
+                <div class="lg:flex pt-4">
+                  <div>
+                    <h3 class="text-sports-primary-bg text-base font-bold"></h3>
+                  </div>
+                  <div class="flex lg:px-2">
+                    <div>
+                      <img src="./icons/Delivery-Frame.png" alt="" />
+                    </div>
+                    <div><p>Delivery Fee : Free</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+    </div>
+  </section>
+    </section>
+  </body>
+</html>
